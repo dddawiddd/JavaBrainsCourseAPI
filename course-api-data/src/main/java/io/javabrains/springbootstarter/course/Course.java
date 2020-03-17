@@ -12,6 +12,7 @@ public class Course {
 
     @ManyToOne
     Topic topic;
+
     @Id
     private String id;
     private String name;
